@@ -4,9 +4,9 @@ const { Pool } = require("pg");
 //creating new connection pool
 const pool = new Pool({
   user: "duane",
-  host: "localhost",
-  database: "PublicSchoolDatabase",
-  password: "postgrespass",
+  host: "EduTrack-Container",
+  database: "EduTrack-Database",
+  password: "edutrack321",
   port: 5432,
 });
 
